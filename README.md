@@ -2,7 +2,7 @@
 
 # Set up 
 
-For running the code locally eed [python](https://www.python.org/downloads/) and [jupyter lab](https://jupyter.org/install). However we recommend using [colab](https://colab.research.google.com/) as it already has the setup.
+For running the code locally you'll need [python](https://www.python.org/downloads/) and [jupyter lab](https://jupyter.org/install). However we recommend using [colab](https://colab.research.google.com/) as it already has the setup.
 
 # File description
 
