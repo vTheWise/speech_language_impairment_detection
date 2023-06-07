@@ -19,6 +19,12 @@ For running the code locally eed [python](https://www.python.org/downloads/) and
 |   Naive Bayes |  42       |  84     |  74   |
 |  Multilayer perceptron (MLP)   |  81    | 55   |  61      |
 |   Wav2vec + MLP |   52      |   93    |  83| 
-|   Wav2vec + MLP + SMOT  |   73   | 83   |  80      |
+|   Wav2vec + MLP + SMOTE  |   73   | 83   |  80      |
 
+# References
 
+XGboost - https://xgboost.readthedocs.io/en/stable/
+Wav2vec - https://huggingface.co/docs/transformers/model_doc/wav2vec2
+Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
+Librosa - https://librosa.org/
+pickle - for saving data https://docs.python.org/3/library/pickle.html
