@@ -23,8 +23,10 @@ For running the code locally eed [python](https://www.python.org/downloads/) and
 
 # References
 
+```
 XGboost - https://xgboost.readthedocs.io/en/stable/
 Wav2vec - https://huggingface.co/docs/transformers/model_doc/wav2vec2
 Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
 Librosa - https://librosa.org/
 pickle - for saving data https://docs.python.org/3/library/pickle.html
+```
