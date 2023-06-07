@@ -11,4 +11,14 @@ For running the code locally eed [python](https://www.python.org/downloads/) and
 - wav2vec.ipynb: This file contains code for extracting wav2vec features from the speech. Further a Multi Layer Perceptron is trained on top of the extracted Wave2Vec features.
 - PhoneticClassifier.ipynb: This file contains code for training a CNN architecture on the spectogram of speech. As a proof of concept the model is trained on speech signals containing `sh` phonemes. Multiple phonetic graders can be trained on different phonemes. The output of these phonetic graders can then be ensembled to get fina verdict.
 
+# Results
+
+| Model      | Sensitivity(%) | Specificity (%)    | Accuracy (%)|
+| :---:       |    :----:   |          :---: | :---: |
+|  XGBoost   |   63   | 98   |  89      |
+|   Naive Bayes |  42       |  84     |  74   |
+|  Multilayer perceptron (MLP)   |  81    | 55   |  61      |
+|   Wav2vec + MLP |   52      |   93    |  83| 
+|   Wav2vec + MLP + SMOT  |   73   | 83   |  80      |
+
 
